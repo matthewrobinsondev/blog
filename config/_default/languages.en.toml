@@ -39,7 +39,7 @@ title = "Matt Robinsons Blog"
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-      { linkedin = "https://linkedin.com/in/matthewrobinsondev" },
+      { linkedin = "https://linkedin.com/in/matthew-robinson-84309a175" },
   #   { mastodon = "https://mastodon.instance/@username" },
   #   { medium = "https://medium.com/username" },
   #   { mendeley = "https://www.mendeley.com/" },
@@ -59,6 +59,6 @@ title = "Matt Robinsons Blog"
   #   { tumblr = "https://username.tumblr.com" },
   #   { twitch = "https://twitch.tv/username" },
   #   { whatsapp = "https://wa.me/phone-number" },
-  #   { x-twitter = "https://twitter.com/username" },
-      { youtube = "https://youtube.com/username" },
+  # #   { x-twitter = "https://twitter.com/username" },
+  #     { youtube = "https://youtube.com/username" },
  ]
