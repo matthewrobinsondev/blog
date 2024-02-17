@@ -3,7 +3,7 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Matt Robinsons Blog"
+title = "Home"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
@@ -14,9 +14,9 @@ title = "Matt Robinsons Blog"
 
 [params.author]
   name = "Matt Robinson"
-  # image = "img/author.jpg"
-  headline = "I'm only human"
-  bio = "A little bit about you"
+  image = "img/avatar.svg"
+  headline = "Software, Systems, Sports & Simpsons."
+  # bio = "A little bit about you"
   links = [
       { email = "mailto:matthewrobinsondev@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
