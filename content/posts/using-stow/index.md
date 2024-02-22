@@ -9,7 +9,7 @@ draft: false
 
 Ever since I took an interest in dotfiles (*I'm looking at you emacs & awesome wm.*) and their magical ability to configure applications and tweak each little setting to my liking, I've been hooked. I spend more time configuring these tools than using them, _in the true developer way_.
 
-However, I always ran into one issue: I have multiple hard drives for different distros (and a consistent ability to break my machine.) and have never found a great way to manage my config files.
+However, I always ran into one issue: I have multiple drives for different distros (and a consistent ability to break my machine) and have never found a great way to manage my config files.
 
 ![Distro Hopping](distro_hopping.jpg "It's funny because its true.")
 
@@ -23,9 +23,11 @@ As described by themselves:
 
 > It takes distinct packages of software and/or data located in separate directories on the filesystem and makes them appear to be installed in the same place.
 
-Essentially, you can control any file in your home diresctory, including dotfiles, from within one directory. Now it doesn't sound amazing like that but think of all the clutter you remove, you can just focus on the files  you want to maintaina and move around. 
+Essentially, you can control any file in your home directory, including dotfiles, from within one directory. Think of all the clutter you remove! You can just focus on the files you want to maintain and move around. 
 
-For example [My dotfiles repo](https://github.com/matthewrobinsondev/dotfiles) is just my `zshrc`, `alacritty`, `tmux` & `neovim` configs. I use these on 3 different machines though, I don't care about moving anything else over so it removes the overhead of eveyrthing else in your `.config` which comes with your system of choice. 
+For example [My dotfiles repo](https://github.com/matthewrobinsondev/dotfiles) is just my `zshrc`, `alacritty`, `tmux` & `neovim` configs, *as an editors note here please send me neovim configs / plugin recommendations*.
+
+I use these on 3 different machines though, I don't care about moving anything else over so it removes the overhead of eveyrthing else in your `.config` which comes with your system of choice. 
 
 Couple this with using Git to store all of your config files, and you can easily manage them all in one repository/directory. It's bliss.
 
