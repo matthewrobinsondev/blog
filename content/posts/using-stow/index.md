@@ -2,14 +2,18 @@
 title: "Stow - Manage your dotfiles with ease."
 date: 2024-02-19
 description: "Why stow is great and how to get set up!"
-draft: true
+draft: false
 ---
 
 # Use Stow for Your Dotfiles. Please.
 
-Ever since I took an interest in dotfiles (*I blame you emacs*) and their magical ability to configure applications and tweak each little setting to my liking, I've been hooked. I spend more time configuring things than using them, _in the true developer way_.
+Ever since I took an interest in dotfiles (*I'm looking at you emacs & awesome wm.*) and their magical ability to configure applications and tweak each little setting to my liking, I've been hooked. I spend more time configuring these tools than using them, _in the true developer way_.
 
-However, I always ran into one issue: I have multiple hard drives and have never found a great way to manage my config files. I always had slightly different configs based on the machine I was on, due to the nature of tweaking as I go. Well, not anymore! **Stow** is incredible. I've been using it for a while now, and it's made my life much easier.
+However, I always ran into one issue: I have multiple hard drives for different distros (and a consistent ability to break my machine.) and have never found a great way to manage my config files.
+
+![Distro Hopping](distro_hopping.jpg "It's funny because its true.")
+
+I always had slightly different configs based on the machine I was on, due to the nature of tweaking as I go. Well, not anymore! **Stow** is incredible. I've been using it for a while now, and it's made my life much easier.
 
 # Well, What is Stow?
 
@@ -18,6 +22,10 @@ However, I always ran into one issue: I have multiple hard drives and have never
 As described by themselves:
 
 > It takes distinct packages of software and/or data located in separate directories on the filesystem and makes them appear to be installed in the same place.
+
+Essentially, you can control any file in your home diresctory, including dotfiles, from within one directory. Now it doesn't sound amazing like that but think of all the clutter you remove, you can just focus on the files  you want to maintaina and move around. 
+
+For example [My dotfiles repo](https://github.com/matthewrobinsondev/dotfiles) is just my `zshrc`, `alacritty`, `tmux` & `neovim` configs. I use these on 3 different machines though, I don't care about moving anything else over so it removes the overhead of eveyrthing else in your `.config` which comes with your system of choice. 
 
 Couple this with using Git to store all of your config files, and you can easily manage them all in one repository/directory. It's bliss.
 
@@ -40,7 +48,11 @@ And Git, well, if you haven't got Git, I'm surprised you found this article.
 
 Kick things off by creating a dedicated Git repository for your dotfiles.
 
-`mkdir ~/dotfiles cd ~/dotfiles git init`
+```
+mkdir ~/dotfiles
+cd ~/dotfiles 
+git init
+```
 
 Think of this new folder as your home directory, so you want to replicate its structure within the folder.
 
@@ -71,11 +83,18 @@ Now, if you make a change in `~/.config/alacritty/alacritty.toml`, then when you
 
 # Conclusion
 
-I love Stow, and in tandem with Git, this is your toolkit for managing dotfiles across your many machines and systems. It provides a straightforward, reliable method to ensure your environment is always just the way you like it, no matter where you find yourself.
+I love Stow, and in tandem with Git, this is my preffered toolkit for managing dotfiles across multiple machines and systems. It provides a straightforward, reliable method to ensure your environment is always just the way you like it, no matter where you find yourself.
 
 It's easy, and it works. What more can you ask for?
+
+{{< figure
+    src="mindblown.gif"
+    alt="Abstract purple artwork"
+    >}}
+
 
 # Want to know more?
 
 - Incredible video & aeshtetically pleasing video by [Dreams of Autonomoy](https://www.youtube.com/watch?v=y6XCebnB9gs)
 - [Stows Website](https://www.gnu.org/software/stow/) previously linked
+- [Article I found searching for memes on dotfiles](https://haseebmajid.dev/posts/2022-10-15-how-to-manage-your-dotfiles-with-dotbot/)
