@@ -1,5 +1,5 @@
 ---
-title: "Stow - Manage your dotfiles with ease."
+title: "Stow - Manage your dotfiles with ease"
 date: 2024-02-19
 description: "Why stow is great and how to get set up!"
 draft: false

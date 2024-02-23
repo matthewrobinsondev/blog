@@ -1,5 +1,5 @@
 ---
-title: Half a decades of lessons in 5 minutes.
+title: Half a decade as a software developer in 5 minutes
 date: 2024-02-22
 draft: false
 ---
@@ -63,7 +63,7 @@ On the flip side, be mindful of the tone of comments. In the age of teams & remo
 ### Feedback Fatigue.
 ![When my pr gets more comments](pr-comments.webp)
 
-However, would you rather spend one extra day working on resolutions of bugs/edge cases someone may have spotted or move your ticket to done & then spend the next sprint on bug tickets for said issue? The number of comments don't matter at the end of the day, once it's merged, who even remembers? Don't worry about it.
+Would you rather spend one extra day working on resolutions of bugs/edge cases someone may have spotted or move your ticket to done & then spend the next sprint on bug tickets for said issue? The number of comments don't matter at the end of the day, once it's merged, who even remembers? Don't worry about it.
 
 However I will say one thing on this as Feedback Fatigue is a real thing unfortunately, not everything needs to be under such a microscope to the point of blocking a PR. I actually stumbelled upon a [Reaction](https://www.youtube.com/watch?v=08NlhU4gzdY) to an [article about a guy who's team resented him for blocking prs for "nits"](https://blog.danlew.net/2021/02/23/stop-nitpicking-in-code-reviews/).
 
