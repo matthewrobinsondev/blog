@@ -1,13 +1,13 @@
 ---
 title: "Stow - Manage your dotfiles with ease"
-date: 2024-02-19
+date: 2024-03-03
 description: "Why stow is great and how to get set up!"
 draft: false
 ---
 
 # Use Stow for Your Dotfiles. Please.
 
-Ever since I took an interest in dotfiles (*I'm looking at you emacs & awesome wm.*) and their magical ability to configure applications and tweak each little setting to my liking, I've been hooked. I spend more time configuring these tools than using them, _in the true developer way_.
+Ever since I took an interest in dotfiles (*I'm looking at you emacs & awesome wm*) and their magical ability to configure applications and tweak each little setting to my liking, I've been hooked. I spend more time configuring these tools than using them, _in the true developer way_.
 
 However, I always ran into one issue: I have multiple drives for different distros (and a consistent ability to break my machine) and have never found a great way to manage my config files.
 
@@ -25,9 +25,9 @@ As described by themselves:
 
 Essentially, you can control any file in your home directory, including dotfiles, from within one directory. Think of all the clutter you remove! You can just focus on the files you want to maintain and move around. 
 
-For example [My dotfiles repo](https://github.com/matthewrobinsondev/dotfiles) is just my `zshrc`, `alacritty`, `tmux` & `neovim` configs, *as an editors note here please send me neovim configs / plugin recommendations*.
+For example [My dotfiles repo](https://github.com/matthewrobinsondev/dotfiles) is just my `zshrc`, `alacritty`, `tmux` & `neovim` configs, *as an editors note here feel free to send me neovim configs / plugin recommendations as I'm updating mine currently*.
 
-I use these on 3 different machines though, I don't care about moving anything else over so it removes the overhead of eveyrthing else in your `.config` which comes with your system of choice. 
+I use these on 3 different machines though, I don't care about moving anything else over other than those configs. This allows me to remove the overhead of everything else in your `.config` which comes with your system of choice. 
 
 Couple this with using Git to store all of your config files, and you can easily manage them all in one repository/directory. It's bliss.
 
@@ -94,6 +94,8 @@ It's easy, and it works. What more can you ask for?
     alt="Abstract purple artwork"
     >}}
 
+
+Thanks for reading, hope you enjoyed!
 
 # Want to know more?
 
